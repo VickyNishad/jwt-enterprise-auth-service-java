@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: jwt-enterprise-auth-service-java
+
+  profiles:
+    active: dev
+
+logging:
+  level:
+    com.vickynishad.tech: DEBUG
